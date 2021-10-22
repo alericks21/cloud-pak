@@ -6,8 +6,8 @@
 This page describes a summary of what CASE version contains what Application version. 
 
 #### Common Airgap Environmental Variables:
-export OFFLINEDIR=\$HOME/offline=
-export CASE_REPO_PATH=https://github.com/IBM/cloud-pak/raw/master/repo/case
+export OFFLINEDIR=\$HOME/offline= <br>
+export CASE_REPO_PATH=https://github.com/IBM/cloud-pak/raw/master/repo/case <br>
 export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 
 
