@@ -15,7 +15,7 @@ This page describes a summary of what CASE version contains what Application ver
 <!-- END HEADER  -->
 | Product | Product Version | CASE Version |  | export CASE_NAME=Product<br>export CASE_VERSION=Product Version<br>export CASE_INVENTORY_SETUP= |
 |:----------|:---------------:|:---------------:|:---------------:|:---------------:|
-| ibm-cp-common-services | 3.10.0 | 1.6.0 |  | export CASE_NAME=ibm-cp-common-services<br><div style="text-align: left">export CASE_VERSION=3.10.0</div><br>export CASE_INVENTORY_SETUP= |
+| ibm-cp-common-services | 3.10.0 | 1.6.0 |  | export CASE_NAME=ibm-cp-common-services<br>export CASE_VERSION=3.10.0<br>export CASE_INVENTORY_SETUP= |
 | ibm-cp-common-services | 3.11.0 | 1.7.0 |  | export CASE_NAME=ibm-cp-common-services<br>export CASE_VERSION=3.11.0<br>export CASE_INVENTORY_SETUP= |
 <!-- BEGIN TAIL -->
 Copyright 2018, IBM Corporation 
