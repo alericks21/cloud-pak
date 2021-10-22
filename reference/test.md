@@ -5,10 +5,11 @@
 # Product CASE to Application Version
 This page describes a summary of what CASE version contains what Application version. 
 
-#### Table columns:
-**Chart:**  The name of the chart.
+#### Common Airgap Environmental Variables:
+export OFFLINEDIR=\$HOME/offline=
+export CASE_REPO_PATH=https://github.com/IBM/cloud-pak/raw/master/repo/case
+export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 
-**Pod security policy:**  The pre-defined pod security policy.  See the  [IBM Cloud Pak pod security policy definitions](../spec/security/psp) for details.
 
 ## CASE to Application reference
 
