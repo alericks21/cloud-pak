@@ -14,7 +14,7 @@ export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 ## CASE to Application reference
 
 <!-- END HEADER  -->
-| Product |  Product Version | [ CASE Version](https://github.com/IBM/cloud-pak/tree/master/repo/case/Product/ CASE Version/) |   | export CASE_NAME=Product<br>export CASE_VERSION= Product Version<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
+| Product |  Product Version | CASE Version |   | AIRGAP Environment Variables | 
 |:----------|:---------------:|:---------------:|:---------------:|:---------------:|
 | ibm-cp-common-services | 3.10.0 | [1.6.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-cp-common-services/1.6.0/) |  | export CASE_NAME=ibm-cp-common-services<br>export CASE_VERSION=3.10.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-cp-common-services | 3.11.0 | [1.7.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-cp-common-services/1.7.0/) |  | export CASE_NAME=ibm-cp-common-services<br>export CASE_VERSION=3.11.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
