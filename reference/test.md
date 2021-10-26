@@ -14,7 +14,7 @@ export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 ## CASE to Application reference
 
 <!-- END HEADER  -->
-| ibm-ai-wmlrepo | 1.1.0 | 1.1.0 |  | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
+| Product | Product Version |  CASE Version |  | AIRGAP Environment Variables |
 |:----------|:---------------:|:---------------:|:---------------:|:---------------:|
 | ibm-ai-wmlserving | 1.0.0 | 1.0.0 |  | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.0.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-ai-wmlserving | 1.1.0 | 1.1.0 |  | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.1.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
