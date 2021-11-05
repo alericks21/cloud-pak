@@ -11,8 +11,9 @@ export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 
 ## CASE to Application reference
 
-| ibm-ai-wmlrepo | 1.1.0 | [1.1.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-ai-wmlrepo/1.1.0/) | CASE that deploys the AI WmlRepository Operator | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
+| Application |  productVer | [ caseVer](https://github.com/IBM/cloud-pak/tree/master/repo/case/Application/ caseVer/) |  description | export CASE_NAME=Application<br>export CASE_VERSION= productVer<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 |:----------|:---------------:|:---------------:|:---------------:|:---------------:|
+| ibm-ai-wmlrepo | 1.1.0 | [1.1.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-ai-wmlrepo/1.1.0/) | CASE that deploys the AI WmlRepository Operator | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-ai-wmlserving | 1.0.0 | [1.0.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-ai-wmlserving/1.0.0/) | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.0.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-ai-wmlserving | 1.1.0 | [1.1.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-ai-wmlserving/1.1.0/) | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.1.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-ai-wmltraining | 1.0.0 | [1.0.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-ai-wmltraining/1.0.0/) | CASE that deploys the AI Wmltraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.0.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
@@ -66,5 +67,4 @@ export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 | ibm-appconnect | 12.0.1.0-r3 | [1.5.2](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-appconnect/1.5.2/) | IBM AppConnect Operator | export CASE_NAME=ibm-appconnect<br>export CASE_VERSION=12.0.1.0-r3<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-appconnect | 12.0.1.0-r4 | [2.0.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-appconnect/2.0.0/) | IBM AppConnect Operator | export CASE_NAME=ibm-appconnect<br>export CASE_VERSION=12.0.1.0-r4<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-appconnect | 12.0.2.0-r1 | [2.1.0](https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-appconnect/2.1.0/) | IBM AppConnect Operator | export CASE_NAME=ibm-appconnect<br>export CASE_VERSION=12.0.2.0-r1<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
-| product |  productVer | [ caseVer](https://github.com/IBM/cloud-pak/tree/master/repo/case/product/ caseVer/) |  description | export CASE_NAME=product<br>export CASE_VERSION= productVer<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 Copyright 2018, IBM Corporation 
