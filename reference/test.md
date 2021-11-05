@@ -68,4 +68,3 @@ export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 | ibm-appconnect | 12.0.1.0-r4 | 2.0.0 | IBM AppConnect Operator | export CASE_NAME=ibm-appconnect<br>export CASE_VERSION=12.0.1.0-r4<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-appconnect | 12.0.2.0-r1 | 2.1.0 | IBM AppConnect Operator | export CASE_NAME=ibm-appconnect<br>export CASE_VERSION=12.0.2.0-r1<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 Copyright 2018, IBM Corporation 
- 
