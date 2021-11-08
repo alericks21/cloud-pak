@@ -11,7 +11,7 @@ export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE"
 
 ## CASE to Application reference
 
-| Application |  productVer |  caseVer |  description | export CASE_NAME=Application<br>export CASE_VERSION= productVer<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
+| Application |  productVer |  caseVer |  description |  airgap |
 |:----------|:---------------:|:---------------:|:---------------:|:---------------:|
 | ibm-ai-wmlrepo | 1.1.0 | 1.1.0 | CASE that deploys the AI WmlRepository Operator | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
 | ibm-ai-wmlserving | 1.0.0 | 1.0.0 | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.0.0<br>export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz<br>export CASE_INVENTORY_SETUP= |
