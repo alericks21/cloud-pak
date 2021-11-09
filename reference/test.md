@@ -13,15 +13,15 @@ export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz
 
 | Application |  productVer |  caseVer |  description |  airgap |
 |:----------|:---------------:|:---------------:|:---------------|:---------------|
-| ibm-ai-wmlrepo | 1.1.0 | 1.1.0 | CASE that deploys the AI WmlRepository Operator | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-ai-wmlserving | 1.0.0 | 1.0.0 | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.0.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-ai-wmlserving | 1.1.0 | 1.1.0 | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-ai-wmltraining | 1.0.0 | 1.0.0 | CASE that deploys the AI Wmltraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.0.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-ai-wmltraining | 1.1.0 | 1.1.0 | CASE that deploys the AI WmlTraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-ai-wmltraining | 1.1.0 | 1.1.1 | CASE that deploys the AI WmlTraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-ai-wmlurm | 1.1.0 | 1.1.0 | CASE that deploys the AI Wmlurm Operator | export CASE_NAME=ibm-ai-wmlurm<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-aiopenscale | 3.5.0 | 1.0.0 | An open and scalable platform for machine learning | export CASE_NAME=ibm-aiopenscale<br>export CASE_VERSION=3.5.0<br>export CASE_INVENTORY_SETUP= |
-| ibm-aiopenscale | 3.5.0 | 1.0.1 | An open and scalable platform for machine learning | export CASE_NAME=ibm-aiopenscale<br>export CASE_VERSION=3.5.0<br>export CASE_INVENTORY_SETUP= |
+| ibm-ai-wmlrepo | 1.1.0 | 1.1.0 | CASE that deploys the AI WmlRepository Operator | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP=operator |
+| ibm-ai-wmlserving | 1.0.0 | 1.0.0 | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.0.0<br>export CASE_INVENTORY_SETUP=aiwlmInvSetup|
+| ibm-ai-wmlserving | 1.1.0 | 1.1.0 | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
+| ibm-ai-wmltraining | 1.0.0 | 1.0.0 | CASE that deploys the AI Wmltraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.0.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
+| ibm-ai-wmltraining | 1.1.0 | 1.1.0 | CASE that deploys the AI WmlTraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
+| ibm-ai-wmltraining | 1.1.0 | 1.1.1 | CASE that deploys the AI WmlTraining Operator | export CASE_NAME=ibm-ai-wmltraining<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
+| ibm-ai-wmlurm | 1.1.0 | 1.1.0 | CASE that deploys the AI Wmlurm Operator | export CASE_NAME=ibm-ai-wmlurm<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
+| ibm-aiopenscale | 3.5.0 | 1.0.0 | An open and scalable platform for machine learning | export CASE_NAME=ibm-aiopenscale<br>export CASE_VERSION=3.5.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
+| ibm-aiopenscale | 3.5.0 | 1.0.1 | An open and scalable platform for machine learning | export CASE_NAME=ibm-aiopenscale<br>export CASE_VERSION=3.5.0<br>export CASE_INVENTORY_SETUP=aiwlmTrainingSetup |
 | ibm-analyticsengine | 4.0.0 | 4.0.0 |  | export CASE_NAME=ibm-analyticsengine<br>export CASE_VERSION=4.0.0<br>export CASE_INVENTORY_SETUP= |
 | ibm-analyticsengine | 4.0.1 | 4.0.1 |  | export CASE_NAME=ibm-analyticsengine<br>export CASE_VERSION=4.0.1<br>export CASE_INVENTORY_SETUP= |
 | ibm-analyticsengine | 4.0.2 | 4.0.2 |  | export CASE_NAME=ibm-analyticsengine<br>export CASE_VERSION=4.0.2<br>export CASE_INVENTORY_SETUP= |
