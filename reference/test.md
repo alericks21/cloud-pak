@@ -11,7 +11,7 @@ export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz
 
 ## CASE to Application reference
 
-| Application | Product Version | CASE Version | Description |  |
+| Application | Product Version | CASE Version | Description | Airgap Variables |
 |:----------|:---------------:|:---------------:|:---------------|:---------------|
 | ibm-ai-wmlrepo | 1.1.0 | 1.1.0 | CASE that deploys the AI WmlRepository Operator | export CASE_NAME=ibm-ai-wmlrepo<br>export CASE_VERSION=1.1.0<br>export CASE_INVENTORY_SETUP= |
 | ibm-ai-wmlserving | 1.0.0 | 1.0.0 | CASE that deploys the WML Core Serving Operator | export CASE_NAME=ibm-ai-wmlserving<br>export CASE_VERSION=1.0.0<br>export CASE_INVENTORY_SETUP= |
