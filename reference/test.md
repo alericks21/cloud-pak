@@ -9,6 +9,8 @@ export CASE_REPO_PATH=https://github.com/IBM/cloud-pak/raw/master/repo/case <br>
 export CASE_LOCAL_PATH=$OFFLINEDIR/$CASE_ARCHIVE" <br>
 export CASE_ARCHIVE=$CASE_NAME-$CASEVERSION.tgz
 
+https://github.com/IBM/cloud-pak/tree/master/repo/case/ibm-cp-applications/1.0.0
+
 ## CASE to Application reference
 
 | Application | Product Version | CASE Version | Description | Airgap Variables |
